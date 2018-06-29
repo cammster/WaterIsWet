@@ -3,3 +3,16 @@ This was a full stack group project utilizing data from the [The Food and Agricu
 water and development measures like the Human Development Index, Gender Inequality Index and Gross Domestic Product. 
 
 ## [Interact with the App Here!](https://waterstats.herokuapp.com)
+
+The map is interactive an allows the user to select different topics and timeframes to explore changes over time and between development indicators. 
+
+![WaterisWet WorldMap](https://github.com/cammster/WaterIsWet/blob/master/images/appmap.PNG)
+
+Each time the user clicks a topic button or a timeframe, the event listeners contained in the javascript calls the database to return a different set of data and redraw the map. The map was plotted using a javascript library, HighMaps, and a bootstrap slider. The graph title and color scale changes for each topic as well. 
+
+## 
+* Download, Clean and Format Data from AQUASTAT
+* Write Routes
+* Web Design
+The website allows allows users to navigate easily between pages to view information about the project, visualizations and data tables. 
+* Deploy to Heroku
